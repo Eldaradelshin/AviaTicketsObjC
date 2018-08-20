@@ -2,18 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CoreData/FavoriteTicket+CoreDataClass.h">
-   </FileRef>
-   <FileRef
-      location = "group:CoreData/FavoriteTicket+CoreDataClass.m">
-   </FileRef>
-   <FileRef
-      location = "group:CoreData/FavoriteTicket+CoreDataProperties.h">
-   </FileRef>
-   <FileRef
-      location = "group:CoreData/FavoriteTicket+CoreDataProperties.m">
-   </FileRef>
-   <FileRef
       location = "group:L1-TestProject.xcodeproj">
    </FileRef>
    <FileRef

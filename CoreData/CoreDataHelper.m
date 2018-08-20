@@ -1,10 +1,3 @@
-//
-//  CoreDataHelper.m
-//  L1-TestProject
-//
-//  Created by rushan adelshin on 10.03.2018.
-//  Copyright © 2018 Eldar Adelshin. All rights reserved.
-//
 
 #import "CoreDataHelper.h"
 

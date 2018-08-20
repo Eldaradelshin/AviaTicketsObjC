@@ -10,7 +10,7 @@
 #import "DataManager.h"
 #import "APIManager.h"
 #import "Ticket.h"
-#import "FavoriteTicket+CoreDataClass.h"
+#import "FavoriteTicket+CoreDataProperties.h"
 
 @interface TicketTableViewCell : UITableViewCell
 

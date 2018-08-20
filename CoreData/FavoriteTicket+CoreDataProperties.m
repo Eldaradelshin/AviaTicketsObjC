@@ -1,8 +1,9 @@
 //
 //  FavoriteTicket+CoreDataProperties.m
-//  
+//  L1-TestProject
 //
-//  Created by rushan adelshin on 10.03.2018.
+//  Created by rushan adelshin on 20.08.2018.
+//  Copyright © 2018 Eldar Adelshin. All rights reserved.
 //
 //
 
@@ -11,17 +12,17 @@
 @implementation FavoriteTicket (CoreDataProperties)
 
 + (NSFetchRequest<FavoriteTicket *> *)fetchRequest {
-	return [[NSFetchRequest alloc] initWithEntityName:@"FavoriteTicket"];
+	return [NSFetchRequest fetchRequestWithEntityName:@"FavoriteTicket"];
 }
 
+@dynamic airline;
 @dynamic created;
 @dynamic departure;
 @dynamic expires;
-@dynamic returnDate;
-@dynamic airline;
-@dynamic from;
-@dynamic to;
-@dynamic price;
 @dynamic flightNumber;
+@dynamic from;
+@dynamic price;
+@dynamic returnDate;
+@dynamic to;
 
 @end
